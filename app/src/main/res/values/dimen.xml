@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dynamic Grid -->
+    <dimen name="dynamic_grid_edge_margin">6dp</dimen>
+    <dimen name="dynamic_grid_search_bar_max_width">500dp</dimen>
+    <dimen name="dynamic_grid_search_bar_height">56dp</dimen>
+    <dimen name="dynamic_grid_page_indicator_height">20dp</dimen>
+    <dimen name="dynamic_grid_icon_drawable_padding">4dp</dimen>
+    <dimen name="dynamic_grid_all_apps_cell_padding">18dp</dimen>
+    <dimen name="dynamic_grid_workspace_page_spacing">8dp</dimen>
+    <dimen name="dynamic_grid_overview_min_icon_zone_height">80dp</dimen>
+    <dimen name="dynamic_grid_overview_max_icon_zone_height">120dp</dimen>
+    <dimen name="dynamic_grid_overview_bar_item_width">48dp</dimen>
+    <dimen name="dynamic_grid_overview_bar_spacer_width">68dp</dimen>
+
+    <!-- Dynamic Grid -->
+    <integer name="config_dynamic_grid_max_long_edge_cell_count">6</integer>
+    <integer name="config_dynamic_grid_max_short_edge_cell_count">5</integer>
+    <integer name="config_dynamic_grid_min_edge_cell_count">3</integer>
+    <!-- Out of 100, the percent of space the overview bar should try and take vertically. -->
+    <integer name="config_dynamic_grid_overview_icon_zone_percentage">20</integer>
+    <!-- Out of 100, the percent to shrink the workspace during overview mode. -->
+    <integer name="config_dynamic_grid_overview_scale_percentage">80</integer>
+
+    <!-- This constant stores the ratio of the all apps button drawable which
+         is used for internal (baked-in) padding -->
+    <integer name="config_allAppsButtonPaddingPercent">17</integer>
+
+    <!-- The AppsCustomize page indicator -->
+    <dimen name="apps_customize_page_indicator_height">12dp</dimen>
+    <dimen name="apps_customize_page_indicator_margin">4dp</dimen>
+    <dimen name="apps_customize_page_indicator_offset">16dp</dimen>
+
+    <!-- Hotseat -->
+    <bool name="hotseat_transpose_layout_with_orientation">true</bool>
+
+    <!--  When dragging an item, how much bigger (fixed dps) the dragged view
+      should be. If 0, it will not be scaled at all. -->
+    <dimen name="dragViewScale">12dp</dimen>
+    <dimen name="app_icon_size">48dp</dimen>
+
+    <!-- Miscellaneous -->
+    <bool name="config_largeHeap">false</bool>
+    <bool name="is_tablet">false</bool>
+    <bool name="is_large_tablet">false</bool>
+    <bool name="allow_rotation">false</bool>
+</resources>
